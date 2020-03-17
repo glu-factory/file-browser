@@ -1,0 +1,14 @@
+{
+  "name": "file-browser",
+  "version": "1.0.0",
+  "description": "An example Glu app",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csz": "^1.2.0",
+    "htm": "^3.0.3",
+    "react": "npm:@pika/react@^16.13.1",
+    "react-dom": "npm:@pika/react-dom@^16.13.1"
+  }
+}

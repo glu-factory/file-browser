@@ -1,8 +1,13 @@
 <html>
   <head>
-    <title>File Browser</title>
+    <title>/</title>
     <link rel="stylesheet" href="./index.css" />
-    <script defer src="./index.js" type="module"></script>
+    <script>
+      window.resizeTo(710, 475);
+    </script>
+    <script src="./utils/es-module-shim.js" defer></script>
+    <script type="importmap-shim" src="/web_modules/import-map.json"></script>
+    <script defer src="./index.js" type="module-shim"></script>
   </head>
   <body>
     <div id="root"></div>
